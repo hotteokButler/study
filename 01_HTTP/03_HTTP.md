@@ -158,60 +158,6 @@ Content-Length: 1256
 | **빈 줄**                  | 헤더와 본문(Body) 사이 구분                                        |
 | **본문(Body)**             | HTML, JSON, 이미지 등 서버가 반환하는 데이터                       |
 
-### 6.2 HTTP 응답 메시지
-
-#### **📌 HTTP 응답 메시지 구조**
-
-```plaintext
-HTTP/버전 상태 코드 상태 메시지
-헤더(Header)
-빈 줄
-바디(Body)
-```
-
-**📌 상태 라인(Status Line)**
-
-- HTTP 응답 메시지는 **Start-Line**(상태 라인)으로 시작하며, 요청에 대한 응답 정보를 제공한다.
-- 상태 라인의 문법은 다음과 같다:
-  ```plaintext
-  status-line = HTTP-version SP status-code SP reason-phrase CRLF
-  ```
-  - `HTTP-version`: 응답을 제공하는 서버의 HTTP 버전 (예: `HTTP/1.1`)
-  - `status-code`: 요청 처리 결과를 나타내는 숫자 코드 (예: `200`, `404`, `500` 등)
-  - `reason-phrase`: 상태 코드에 대한 설명 (예: `OK`, `Not Found`, `Internal Server Error` 등)
-
-**예제 (성공 응답)**
-
-```
-HTTP/1.1 200 OK
-Date: Mon, 13 Mar 2025 12:00:00 GMT
-Content-Type: text/html
-Content-Length: 1256
-
-<html>
-  <head><title>Example</title></head>
-  <body><h1>Welcome to Example</h1></body>
-</html>
-```
-
-**예제 (404 Not Found 응답)**
-
-```
-HTTP/1.1 404 Not Found
-Date: Mon, 13 Mar 2025 12:00:00 GMT
-Content-Type: text/html
-Content-Length: 57
-
-<html><body><h1>404 Not Found</h1></body></html>
-```
-
-| 구성 요소                  | 설명                                                                  |
-| -------------------------- | --------------------------------------------------------------------- |
-| **상태 라인(Status Line)** | Start-Line이라고도 불리며, HTTP 버전, 상태 코드, 상태 메시지로 구성됨 |
-| **헤더(Header)**           | 응답 관련 부가 정보 포함 (예: `Content-Type`, `Date`, `Server` 등)    |
-| **빈 줄**                  | 헤더와 본문(Body) 사이 구분 역할                                      |
-| **본문(Body)**             | 서버가 반환하는 데이터 (예: HTML, JSON, 이미지 등)                    |
-
 ## 7. 참고 링크
 
 > [HTTP 개요 및 백엔드 로드맵 - Inpa's Blog](https://inpa.tistory.com/entry/HTTP-%F0%9F%8C%90-%EB%B0%B1%EC%97%94%EB%93%9C-%EB%A1%9C%EB%93%9C%EB%A7%B5-HTTP%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94#http%EC%9D%98_%ED%86%B5%EC%8B%A0_%EA%B5%AC%EC%A1%B0)
