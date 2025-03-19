@@ -7,6 +7,7 @@
     - 01\_인터넷네트워크
     - 02_URI와 웹 브라우저 요청 흐름
     - 03_HTTP
+    - 04_HTTP_Method
 
 2.  [JavaScript]
 
