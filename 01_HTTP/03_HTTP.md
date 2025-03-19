@@ -172,6 +172,7 @@ Content-Length: 1256
 > [HTTP 개요 및 백엔드 로드맵 - Inpa's Blog](https://inpa.tistory.com/entry/HTTP-%F0%9F%8C%90-%EB%B0%B1%EC%97%94%EB%93%9C-%EB%A1%9C%EB%93%9C%EB%A7%B5-HTTP%EB%8A%94-%EB%AC%B4%EC%97%87%EC%9D%BC%EA%B9%8C%EC%9A%94#http%EC%9D%98_%ED%86%B5%EC%8B%A0_%EA%B5%AC%EC%A1%B0)
 
 > [MDN Web Docs - HTTP 개요](https://developer.mozilla.org/ko/docs/Web/HTTP/Overview)
+> [김영한님 인프런 강의 - HTTP 웹 네트워크 개념](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
 
 <details>
   <summary>

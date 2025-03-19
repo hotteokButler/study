@@ -674,6 +674,8 @@ HTTP 메서드에 대한 더 자세한 내용은 아래 자료를 참고하세�
 - 🔗 [HTTP 메서드 종류 및 통신 과정 총정리 - inpa 블로그](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-HTTP-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%A2%85%EB%A5%98-%ED%86%B5%EC%8B%A0-%EA%B3%BC%EC%A0%95-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)
 - 🔗 [HTTP 메서드 개념 및 사용법 - youwjune 블로그](https://youwjune.tistory.com/42)
 - 🔗 [MDN 웹 문서 - HTTP 메서드 공식 문서](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods)
+- 🔗 [MDN 웹 문서 - HTTP 메서드 공식 문서](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
+- 🔗 [김영한님 인프런 강의 - HTTP 웹 네트워크 개념](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
 
 ---
 

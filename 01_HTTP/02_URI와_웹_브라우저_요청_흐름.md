@@ -181,6 +181,8 @@
 > [https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/network/uri.md](https://github.com/baeharam/Must-Know-About-Frontend/blob/main/Notes/network/uri.md)
 >
 > [https://velog.io/@wlwl99/URL와-URI-IP와-PORT-도메인과-DNS#urluniform-resource-locator](https://velog.io/@wlwl99/URL%EC%99%80-URI-IP%EC%99%80-PORT-%EB%8F%84%EB%A9%94%EC%9D%B8%EA%B3%BC-DNS#urluniform-resource-locator)
+>
+> [김영한님 인프런 강의 - HTTP 웹 네트워크 개념](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
 
 ---
 
