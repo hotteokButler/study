@@ -664,3 +664,13 @@ Last-Modified: Wed, 20 Mar 2024 12:00:00 GMT
 
 ✅ **즉, HEAD는 GET처럼 요청하지만, 응답 본문 없이 헤더 정보만 확인!**  
 ✅ **리소스를 다운로드하거나 API 요청 전에 데이터 상태를 확인할 때 유용!**
+
+---
+
+## 참고 자료
+
+HTTP 메서드에 대한 더 자세한 내용은 아래 자료를 참고하세요:
+
+- 🔗 [HTTP 메서드 종류 및 통신 과정 총정리 - inpa 블로그](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-HTTP-%EB%A9%94%EC%84%9C%EB%93%9C-%EC%A2%85%EB%A5%98-%ED%86%B5%EC%8B%A0-%EA%B3%BC%EC%A0%95-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- 🔗 [HTTP 메서드 개념 및 사용법 - youwjune 블로그](https://youwjune.tistory.com/42)
+- 🔗 [MDN 웹 문서 - HTTP 메서드 공식 문서](https://developer.mozilla.org/ko/docs/Web/HTTP/Reference/Methods)
