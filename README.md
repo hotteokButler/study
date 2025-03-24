@@ -37,3 +37,5 @@
       - (3-2) 2\_재귀\_팩토리얼
       - (3-3) 3_Helper_Method_Recrusion
     - 4_Searching
+
+3.  [Python]
