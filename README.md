@@ -1,41 +1,32 @@
-# Study한 것들 기록!
+# ✅ Study 기록
 
-## Index List
-
-1.  [HTTP]
-
-    - 01\_인터넷네트워크
-    - 02_URI와 웹 브라우저 요청 흐름
-    - 03_HTTP
-    - 04_HTTP_Method
-
-2.  [JavaScript]
-
-    - 0_concept
-      - (0-1) js심화
-      - (0-2) node js
-    - 1_BigONotation
-
-      - (1-1) part01_concept01 : BigO
-      - (1-2) part02_concept02 : BigO(2)
-      - (1-3) part03_concept03 : Big o notation
-      - (1-4) part04_complexity : time/space complexity
-      - (1-5) part05_logN : 지수함수, 로그함수, logarithms
-      - (1-6) part06_object : 객체의 Big O
-      - (1-6) part07_arrays : Array와 Big O
-
-    - 2_ProblemSolving
-      - 코드연습
-      - (2-1) 1\_문제\_해결\_접근법
-      - (2-2) 2\_문제\_해결\_패턴 : 종류
-        - (2-2-1) 2-1_Frequeny_Counter
-        - (2-2-2) 2-2_Multiple_pointers
-        - (2-2-3) 2-3_Sliding_Window
-        - (2-2-4) 2-4_Divide_And_Conquer
-    - 3_Recursion
-      - (3-1) 1\_재귀
-      - (3-2) 2\_재귀\_팩토리얼
-      - (3-3) 3_Helper_Method_Recrusion
-    - 4_Searching
-
-3.  [Python]
+| 카테고리       | 하위 항목         | 세부 항목                               | 진도율 | 링크                                                                                                                                                                        |
+| -------------- | ----------------- | --------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **HTTP**       | -                 | 01\_인터넷네트워크                      | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/01_HTTP/01_%EC%9D%B8%ED%84%B0%EB%84%B7_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.md)                                  |
+|                |                   | 02_URI와 웹 브라우저 요청 흐름          | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/01_HTTP/02_URI%EC%99%80_%EC%9B%B9_%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80_%EC%9A%94%EC%B2%AD_%ED%9D%90%EB%A6%84.md) |
+|                |                   | 03_HTTP                                 | []     | [📄 링크](https://github.com/hotteokButler/study/blob/main/01_HTTP/03_HTTP.md)                                                                                              |
+|                |                   | 04_HTTP_Method                          | []     | [📄 링크](https://github.com/hotteokButler/study/blob/main/01_HTTP/04_HTTP_Method.md)                                                                                       |
+|                |                   | 05*HTTP*메서드의\_속성                  | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/01_HTTP/05_HTTP_%EB%A9%94%EC%84%9C%EB%93%9C%EC%9D%98_%EC%86%8D%EC%84%B1.md)                                      |
+|                |                   | 06*HTTP_API*설계                        | [ ]    | [📄 링크]()                                                                                                                                                                 |
+| **JavaScript** | 0_concept         | (0-1) js심화                            | [ ]    | [📄 링크](https://github.com/hotteokButler/study/tree/main/02_JavaScript/0_concept/0_1_js%EC%8B%AC%ED%99%94)                                                                |
+|                |                   | (0-2) node js                           | [ ]    | [📄 링크](https://github.com/hotteokButler/study/tree/main/02_JavaScript/0_concept/0_2_node_js)                                                                             |
+|                | 1_BigONotation    | (1-1) part01_concept01 : BigO           | []     | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part01__concept01.js)                                                               |
+|                |                   | (1-2) part02_concept02 : BigO(2)        | []     | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part02_concept02.js)                                                                |
+|                |                   | (1-3) part03_concept03 : Big o notation | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part03_concept03.js)                                                                |
+|                |                   | (1-4) part04_complexity                 | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part04_complexity.js)                                                               |
+|                |                   | (1-5) part05_logN                       | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part05_logN.js)                                                                     |
+|                |                   | (1-6) part06_object                     | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part06_object.js)                                                                   |
+|                |                   | (1-7) part07_arrays                     | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/1_BigONotation/part07_arrays.js)                                                                   |
+|                | 2_ProblemSolving  | 코드연습                                | [ ]    | [📄 링크](https://github.com/hotteokButler/study/tree/main/02_JavaScript/2_ProblemSolving/%EC%BD%94%EB%93%9C%EC%97%B0%EC%8A%B5)                                             |
+|                |                   | (2-1) 1*문제*해결\_접근법               | []     | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/2_ProblemSolving/1_%EB%AC%B8%EC%A0%9C_%ED%95%B4%EA%B2%B0_%EC%A0%91%EA%B7%BC%EB%B2%95.js)           |
+|                | 2*문제*해결\_패턴 | (2-2-1) Frequency_Counter               | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/2_ProblemSolving/2-1_Frequeny_Counter.js)                                                          |
+|                |                   | (2-2-2) Multiple_pointers               | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/2_ProblemSolving/2-2_Multiple_pointers.js)                                                         |
+|                |                   | (2-2-3) Sliding_Window                  | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/2_ProblemSolving/2-3_Sliding_Window.js)                                                            |
+|                |                   | (2-2-4) Divide_And_Conquer              | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/2_ProblemSolving/2-4_Divide_And_Conquer.js)                                                        |
+|                | 3_Recursion       | (3-1) 1\_재귀                           | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/3_Recursion/1_%EC%9E%AC%EA%B7%80.js)                                                               |
+|                |                   | (3-2) 2*재귀*팩토리얼                   | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/3_Recursion/2_%EC%9E%AC%EA%B7%80_%ED%8C%A9%ED%86%A0%EB%A6%AC%EC%96%BC.js)                          |
+|                |                   | (3-3) 3_Helper_Method_Recursion         | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/3_Recursion/3_Helper_Method_Recrusion.js)                                                          |
+|                | 4_Searching       | (4-1) 1\_검색 알고리즘                  | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/4_Searching/1_%EA%B2%80%EC%83%89_%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.js)                          |
+|                |                   | (4-2) 2\_선형 검색                      | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/02_JavaScript/4_Searching/2_%EC%84%A0%ED%98%95%EA%B2%80%EC%83%89.js)                                             |
+| **Python**     | 0_Basic           | (0-1) 데이터 타입 및 입출력             | [ ]    | [📄 링크](https://github.com/hotteokButler/study/blob/main/03_Python/0_Basic/01_data_type_and_print.ipynb)                                                                  |
+|                |                   | (내용 미작성)                           | [ ]    | -                                                                                                                                                                           |
