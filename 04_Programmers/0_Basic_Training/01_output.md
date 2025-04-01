@@ -107,3 +107,46 @@ readline
 - `join(separator)`
 - 배열의 모든 요소를 쉼표나 지정된 구분 문자열로 구분하여 연결한 새 문자열 반환
 - `separator` : 배열의 인접한 요소의 각 쌍을 구분하는 문자열입니다. 생략되면 배열 요소는 쉼표(",")로 구분
+
+### 💬2-2. 문자열 붙여 출력하기 [2025.04.01]
+
+> 문자열 my_string, overwrite_string과 정수 s가 주어집니다. 문자열 my_string의 인덱스 s부터 overwrite_string의 길이만큼을 문자열 overwrite_string으로 바꾼 문자열을 return 하는 solution 함수를 작성해 주세요.
+
+#### 💡 내 풀이 - 통과✅
+
+```javascript
+function solution(my_string, overwrite_string, s) {
+	return my_string.slice(0, s) + overwrite_string + my_string.slice(s + overwrite_string.length);
+}
+```
+
+- slice()로 문자열을 앞, 중간, 뒤로 나눈 후 연결.
+- 문자열은 불변(immutable)이기 때문에 새로운 문자열을 만들어 반환.
+- 간결하고 직관적.
+
+- ✔ 장점
+
+  - 빠르고 메모리 효율적입니다.
+  - 내부적으로는 문자열의 일부분을 잘라내고 이어 붙이는 연산이지만, 최적화가 잘 되어 있습니다.
+  - 추가 라이브러리나 배열 변환 없이 순수 문자열 연산만 사용합.
+
+- ✔ 단점
+  - 너무 긴 문자열을 자주 조작하는 경우, 문자열 연결 비용이 누적될 수 있습니다. (하지만 이 문제에선 무시해도 될 수준)
+
+#### 💡 다른 풀이 - (split() + splice())✅
+
+```javascript
+function solution(my_string, overwrite_string, s) {
+	const answer = my_string.split('');
+	answer.splice(s, overwrite_string.length, ...overwrite_string);
+	return answer.join('');
+}
+```
+
+| 항목        | 내 풀이 (slice + concat) | 배열 기반 풀이 (split + splice + join) |
+| ----------- | ------------------------ | -------------------------------------- |
+| 간결함      | ✅ 매우 간단             | ❌ 더 복잡                             |
+| 성능        | ✅ 더 빠름               | ❌ 상대적으로 느림                     |
+| 메모리 효율 | ✅ 불필요한 배열 없음    | ❌ 배열 생성 및 조작                   |
+| 직관성      | ✅ 높은 편               | ❌ 배열을 알아야 이해 가능             |
+| 버그 가능성 | ✅ 없음                  | ❌ spread 연산 누락 시 오류 발생       |
