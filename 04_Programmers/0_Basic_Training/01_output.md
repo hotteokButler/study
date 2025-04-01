@@ -108,7 +108,7 @@ readline
 - 배열의 모든 요소를 쉼표나 지정된 구분 문자열로 구분하여 연결한 새 문자열 반환
 - `separator` : 배열의 인접한 요소의 각 쌍을 구분하는 문자열입니다. 생략되면 배열 요소는 쉼표(",")로 구분
 
-### 💬2-2. 문자열 붙여 출력하기 [2025.04.01]
+### 💬2-2. 문자열 겹쳐쓰기 [2025.04.01]
 
 > 문자열 my_string, overwrite_string과 정수 s가 주어집니다. 문자열 my_string의 인덱스 s부터 overwrite_string의 길이만큼을 문자열 overwrite_string으로 바꾼 문자열을 return 하는 solution 함수를 작성해 주세요.
 
@@ -150,3 +150,9 @@ function solution(my_string, overwrite_string, s) {
 | 메모리 효율 | ✅ 불필요한 배열 없음    | ❌ 배열 생성 및 조작                   |
 | 직관성      | ✅ 높은 편               | ❌ 배열을 알아야 이해 가능             |
 | 버그 가능성 | ✅ 없음                  | ❌ spread 연산 누락 시 오류 발생       |
+
+---
+
+### 🥸 출처
+
+- [🫨프로그래머스](https://programmers.co.kr/)
